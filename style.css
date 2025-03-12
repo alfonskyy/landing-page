@@ -72,4 +72,71 @@ h1 {
 
 button {
     max-width: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 8px;
+
 }
+
+.middle img {
+    width: 300px;
+    height: 300px;
+    gap: 1em;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 16px;
+    border-width: 6px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 300px;
+    
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    gap: 4em;
+  
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container img {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 16px;
+    border-width: 6px;
+}
+
+.image-container p {
+    margin-top: 10px; 
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.middle h1 {
+    padding: 50px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
+    
+    
+
+
